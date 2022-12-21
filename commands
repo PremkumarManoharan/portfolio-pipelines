@@ -1,0 +1,14 @@
+1. Update linux using cmd
+    sudo apt update && sudo apt dist-upgrade -y
+
+2. Install pip and some other packages which is prerequsit for Ansible using below command 
+    sudo apt install -y libssl-dev libffi-dev python-dev python3-pip
+
+3. Install Ansible and azure suit 
+    sudo pip install ansible[azure]
+
+4. Craete a Directory 
+    mkdir ~/.azure
+
+5. Create a Credentials the above folder
+    nano ~/.azure/credentails
